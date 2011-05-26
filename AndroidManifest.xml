@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.paulish.widgets.stocks" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.5.4" android:versionCode="100">
+    <application android:icon="@drawable/stocks" android:label="@string/app_name" android:debuggable="true">
+        <!-- Providers -->
+        <provider
+            android:authorities="com.paulish.widgets.stocks.provider"
+            android:grantUriPermissions="true"
+            android:multiprocess="true" android:name=".StocksProvider"/>
+        <provider
+            android:authorities="com.paulish.widgets.stocks.searchprovider"
+            android:multiprocess="true" android:name=".StocksSearchProvider"/>
+        <!-- Broadcast Receivers -->
+        <receiver android:label="@string/stocksScrollable" android:name=".receivers.StocksWidgetScrollable">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.paulish.widgets.stocks.action.NOTIFY_LOADING"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/stocks_widget_provider_scrollable"/>
+        </receiver>
+        <receiver android:label="@string/stocksSingle" android:name=".receivers.StocksWidgetSingle">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.paulish.widgets.stocks.action.NOTIFY_LOADING"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/stocks_widget_provider_single"/>
+        </receiver>
+        <!-- Activities -->
+        <activity android:name=".ConfigurationActivity" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.paulish.widgets.stocks.PREFS"/>
+            </intent-filter>
+        </activity>        
+        <activity android:name=".PortfolioActivity" android:excludeFromRecents="true" android:label="@string/editPortfolio"/>
+        <activity android:name=".QuoteViewActivity" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.paulish.widgets.stocks.QUOTE_VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".SymbolSearchActivity" android:theme="@android:style/Theme.NoTitleBar" android:excludeFromRecents="true" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+			<intent-filter>
+            	<action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+        	</intent-filter>
+        	<meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>        
+        </activity>        
+        <!-- Services -->
+        <service android:name=".UpdateService"/>
+    </application>
+    <uses-sdk android:minSdkVersion="7"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

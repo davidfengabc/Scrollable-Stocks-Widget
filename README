@@ -1,0 +1,40 @@
+Credits:
+Maintenance by R. M. Geren
+Icon created by vanessaem
+Original code by Paul Ishenin
+
+
+Version history:
+1.5.1:
+First version with new maintainer. 
+Fix changes text display introduced in new launchers.
+1.5:
+Drag and drop in the portfolio editor
+More reliable widget updates
+1.4.1:
+allow to add symbol which can't be found by yahoo
+1.4:
+show configuration screen when widget is inserted into the launcher
+add an ability to choose between 24/12 hour format and DD/MM MM/DD date formats
+changed the scrollable widget layout a bit
+1.3:
+add ticker on the quick suggestion click instead of performing a search again
+refactoring to reduce possible memort leaks
+increased symbol size on the scrollable layout
+fixed a bug with showing refresh message while automatic update
+1.2:
+implement yahoo symbols search
+don't require a ^DJI trick with INDU anymore
+minor improvements
+1.1.1:
+fixed timezone conversion
+1.1:
+load quotes date and time and show them on scrollable widget
+change scrollable widget layout a bit
+try to solve updates with interval problem
+1.0:
+now all the widgets have one portfolio which is not deleted together with widget. as result you can remove/insert widget without the need to edit portfolio again
+removed scrollbar from the list (LaucherPro widgets have no scrollbars)
+0.9:
+implemented small widget. Press on arrow to show the next quote from portfolio. Press on widget to open quote view.
+0.8 the first version uploaded to android market

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Stocks Widget</string>           
+    <string name="save">Save</string>
+    <string name="addTickerSymbol">Add Symbol...</string>
+    <string name="deleteTickerSymbol">Delete</string>    
+    <string name="openTickerSymbol">Open</string>
+    <string name="loading">Loading...</string>
+    <string name="editPortfolio">Edit Portfolio</string>
+    <string name="editTickerSymbol">Edit</string>
+    <string name="defaultPortfolio">^FTSE,^IXIC,RTS.RS,GOOG</string>
+    <string name="tickerSymbol">Ticker symbol</string>
+    <string name="stocks">Stocks</string>
+    <string name="stocksScrollable">Stocks (4x4, Scrollable)</string>
+    <string name="stocksSingle">Stocks (2x1)</string>
+    <string name="tickerSearchHint">Search the ticker</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="pref_grp_main">Main</string>
+    <string name="pref_grp_look">Look and Feel</string>
+    <string name="pref_grp_general">General</string>
+    <string name="update_interval_title">Update interval</string>
+    <string name="update_interval_summary">How often to poll the Yahoo service for new values.</string>
+    <string name="about">About</string>
+    <string name="stocks_24_hour_summary">Displays times in 24-hour format instead of AM/PM times.</string>
+    <string name="stocks_24_hour_title">Use 24-hour format</string>
+    <string name="key_stocks_24_hour">key_24_hour</string>
+    <string name="stocks_date_day_first_title">Use DD/MM date format</string>
+    <string name="key_stocks_date_day_first">key_date_day_first</string>
+    <string name="stocks_date_day_first_summary">Displays dates in DD/MM format instead of MM/DD format.</string>
+    <string name="about_text">
+		Stocks widget\n\nScrollable widget requires a
+		launcher which supports scrollable widgets API. For
+		example:\nLauncherPro, ADW, FreeHome, Helix, TagHome.\n
+		\nCredits:\n
+		Maintained by R. M. Geren\n
+		Icon created by vanessaem\n
+		Original code by Paul Ishenin\n
+
+		\nRecent Changes:\n
+		1.5.4:\n
+		*Fix changes text display introduced in new launchers.\n
+</string>
+<string name="symbolNotFound">Symbol \'%s\' is not found. Press to add it anyway.</string>
+<color name="dragndrop_background">#e0103010</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="7dip" android:id="@+id/listItemLayout">
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/quotePrice">
+		<TextView android:textStyle="bold" android:textColor="#ddffffff" android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/quoteSymbol" android:maxLines="1"/>
+    	<TextView android:textSize="10.0sp" android:textColor="#aaffffff" android:layout_width="wrap_content" android:paddingLeft="7.0dip" android:layout_height="wrap_content" android:id="@+id/quoteTime" android:maxLines="1"/>    	
+    </LinearLayout>
+	<TextView android:layout_width="fill_parent" android:textColor="#aaffffff" android:textSize="12.0sp" android:layout_height="wrap_content" android:id="@+id/quoteName" android:layout_toLeftOf="@+id/quotePrice" android:layout_alignBottom="@+id/layoutChanges"/>
+   	<TextView android:layout_width="wrap_content" android:textStyle="bold" android:textColor="#ddffffff" android:textSize="16.0sp" android:layout_height="wrap_content" android:id="@+id/quotePrice" android:layout_centerVertical="true" android:layout_toLeftOf="@+id/layoutChanges" android:layout_marginRight="7dip"/>
+	<RelativeLayout android:id="@+id/layoutChanges" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_height="60px" android:layout_width="122px">
+		<ImageView android:layout_alignParentTop="true" android:id="@+id/stateImage" android:layout_alignParentLeft="true" android:layout_height="fill_parent" android:layout_width="fill_parent"/>
+		<LinearLayout android:orientation="vertical" android:layout_alignTop="@+id/stateImage" android:layout_alignBottom="@+id/stateImage" android:layout_height="fill_parent" android:layout_width="fill_parent" android:padding="4dip">
+	    	<TextView android:textStyle="bold" android:textColor="#ccffffff" android:textSize="12.0sp" android:layout_height="0dip" android:layout_weight="1.0" android:layout_width="fill_parent" android:id="@+id/quoteChange" android:gravity="center"/>
+	    	<TextView android:textStyle="bold" android:textColor="#ccffffff" android:textSize="12.0sp" android:layout_height="0dip" android:layout_weight="1.0" android:layout_width="fill_parent" android:id="@+id/quoteChangePercent" android:gravity="center"/>
+	    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

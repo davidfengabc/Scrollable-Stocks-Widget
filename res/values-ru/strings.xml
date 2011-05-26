@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="tickerSymbol">Символ акции</string>
+    <string name="save">Сохранить</string>
+    <string name="deleteTickerSymbol">Удалить</string>
+    <string name="loading">Загрузка...</string>
+    <string name="addTickerSymbol">Добавить символ...</string>
+    <string name="editTickerSymbol">Редактировать</string>
+    <string name="editPortfolio">Редактировать портфель</string>
+    <string name="openTickerSymbol">Открыть</string>    
+    <string name="stocks">Акции</string>
+    <string name="app_name">Виджет Акций</string>
+    <string name="stocksScrollable">Акции (прокручиваемый)</string>
+    <string name="stocksSingle">Акции (маленький)</string>
+    <string name="tickerSearchHint">Искать символ</string>
+    <string name="portfolio">Портфель</string>
+    <string name="pref_grp_main">Основные</string>
+    <string name="pref_grp_look">Вид и поведение</string>
+    <string name="pref_grp_general">Общие</string>
+    <string name="update_interval_title">Интервал обновления</string>
+    <string name="update_interval_summary">Как часто загружать новые значения с сервиса Yahoo</string>
+    <string name="about">О программе</string>
+    <string name="stocks_date_day_first_title">Использовать DD/MM формат даты</string>
+    <string name="stocks_24_hour_summary">Отображать время в 24-х часовом, а не в AM/PM формате</string>
+    <string name="stocks_date_day_first_summary">Отображать даты в DD/MM, а не в MM/DD формате</string>
+    <string name="stocks_24_hour_title">Использовать 24-х часовой формат</string>    
+    <string name="about_text">Виджет акций\n\Прокручиваемый виджет работает только в лаунчере с поддержкой scrollable API. Напрмиер:\nLauncherPro, ADW, FreeHome, Helix, TagHome.\n
+\nБлагодарности:\n
+Иконка создана vanessaem\n
+\nИстория версий:\n
+1.5:\n
+*drag and drop в редакторе портфеля\n
+*решена проблема обновлений\n\n
+1.4.1:\n
+*возможность добавить символ, который не найден yahoo\n\n
+1.4:\n
+*показывает конфигурацию при добавлении виджета на рабочий стол\n
+*добавлена возможность выбора между 24/12 часовыми форматами и DD/MM MM/DD форматами даты\n
+*немного изменен вид прокручиваемого виджета\n\n
+1.3:\n
+*при выборе в окне подсказок поиска символ автоматически добавляется, а не производится поиск по нему\n
+*рефакторинг для уменьшения возможных утечек памяти\n
+*увеличен размер симала на прокручиваемом виджете\n
+*исправлен баг с отображением состояния обновления во время автоматических обновлений\n\n
+1.2:\n
+*реализован поиск по символам Yahoo\n
+*не требует трюка для добавления ^DJI\n
+*незначительные улучшения\n\n
+1.1.1:\n
+*поправлено преобразование времени\n\n
+1.1:\n
+*загружает время для значений акций и отображает его на прокручиваемом виджете\n
+*немного изменен вид прокручиваемого виджета\n
+*попытка устранить проблемы обновления с интервалом\n\n
+1.0:\n
+*все виджеты теперь имеют один портфель который больше не удаляется вместе с виджетом\n
+*удалено отображение полосы прокрутки в прокручиваемом виджете</string>
+<string name="symbolNotFound">Символ \'%s\' не найден. Нажмите чтобы все равно добавить его.</string>
+</resources>

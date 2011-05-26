@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:key="pref_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="@string/pref_grp_main">
+	<Preference android:title="@string/portfolio" android:key="EDIT_PORTFOLIO" />
+	<ListPreference android:entries="@array/stocks_update_interval_entries" android:title="@string/update_interval_title" android:key="UpdateInterval" android:summary="@string/update_interval_summary" android:defaultValue="15" android:entryValues="@array/stocks_update_interval_entryValues" />
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/pref_grp_look">		
+    <CheckBoxPreference android:title="@string/stocks_24_hour_title" android:key="@string/key_stocks_24_hour" android:summary="@string/stocks_24_hour_summary" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/stocks_date_day_first_title" android:key="@string/key_stocks_date_day_first" android:summary="@string/stocks_date_day_first_summary" android:defaultValue="true" />
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@string/pref_grp_general">
+	<Preference android:title="@string/save" android:key="SAVE"/>
+	<Preference android:title="@string/about" android:key="ABOUT" />  		
+  </PreferenceCategory>
+</PreferenceScreen>
