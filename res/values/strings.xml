@@ -37,8 +37,8 @@
 		Original code by Paul Ishenin\n
 
 		\nRecent Changes:\n
-		1.5.4:\n
-		*Fix changes text display introduced in new launchers.\n
+		1.5.5:\n
+		*Put ads in the Portfolio setup. Please click a few!
 </string>
 <string name="symbolNotFound">Symbol \'%s\' is not found. Press to add it anyway.</string>
 <color name="dragndrop_background">#e0103010</color>
