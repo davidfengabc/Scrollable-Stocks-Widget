@@ -5,12 +5,6 @@ xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent">
 
-    <com.google.ads.AdView android:id="@+id/adView"
-                           android:layout_width="wrap_content"
-                           android:layout_height="wrap_content"
-						   ads:adUnitId="a14de29a0c77707" 
-                           ads:adSize="BANNER" />
-
 	<com.android.music.TouchInterceptor
 		android:id="@android:id/list" 
 		android:layout_width="fill_parent"

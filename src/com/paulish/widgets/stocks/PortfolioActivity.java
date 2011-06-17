@@ -3,7 +3,6 @@ package com.paulish.widgets.stocks;
 import java.util.List;
 
 import com.android.music.TouchInterceptor;
-import com.google.ads.*;
 
 import android.app.*;
 import android.appwidget.AppWidgetManager;
@@ -33,10 +32,6 @@ public class PortfolioActivity extends ListActivity implements OnClickListener {
 		Button btn = (Button)findViewById(R.id.cancel);
 		btn.setText(android.R.string.cancel);
 		btn.setOnClickListener(this);		
-		
-	    // Look up the AdView as a resource and load a request.
-	    AdView adView = (AdView)this.findViewById(R.id.adView);
-	    adView.loadAd(new AdRequest());
 	    
 		tickersList = getListView();
 		registerForContextMenu(tickersList);		
