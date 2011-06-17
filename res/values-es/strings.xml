@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Widget de Valores</string>           
+    <string name="save">Guardar</string>
+    <string name="addTickerSymbol">Añadir Símbolo...</string>
+    <string name="deleteTickerSymbol">Borrar</string>    
+    <string name="openTickerSymbol">Abrir</string>
+    <string name="loading">Cargando...</string>
+    <string name="editPortfolio">Editar Cartera</string>
+    <string name="editTickerSymbol">Editar</string>
+    <string name="tickerSymbol">Símbolo del Valor</string>
+    <string name="stocks">Valores</string>
+    <string name="stocksScrollable">Valores (4x4, Desplazable)</string>
+    <string name="stocksSingle">Valores (2x1)</string>
+    <string name="tickerSearchHint">Busca en la Bolsa</string>
+    <string name="portfolio">Cartera</string>
+    <string name="pref_grp_main">Página Principal</string>
+    <string name="pref_grp_look">Aapariencia</string>
+    <string name="pref_grp_general">General</string>
+    <string name="update_interval_title">Intervalo de Actualización</string>
+    <string name="update_interval_summary">Con qué frecuencia para sondear el servicio de Yahoo! para los nuevos valores.</string>
+    <string name="about">About</string>
+    <string name="stocks_24_hour_summary">Muestra la hora en formato de 24 horas en lugar de AM/PM.</string>
+    <string name="stocks_24_hour_title">Utilizar el formato 24 horas.</string>
+    <string name="stocks_date_day_first_title">Utilizar el formato DD/MM</string>
+    <string name="stocks_date_day_first_summary">Muestra las fechas en formato DD/MM en lugar de MM/DD</string>
+    <string name="about_text">
+		Stocks Widget\n\n
+		El widget desplazable requiere de un
+launcher que soporta el API de widgets desplazables. Por ejemplo:
+\nLauncherPro, ADW, FreeHome, Helix, TagHome.\n
+		\nCréditos:\n
+		Mantenido por R. M. Geren\n
+		Icono creado por vanessaem\n
+		Código original de Paul Ishenin\n
+		Traducción al español por R. M. Geren\n
+
+		\nRecent Changes:\n
+		1.5.7:\n
+		*Añadido varias traducciones.
+</string>
+<string name="symbolNotFound">Símbolo \'%s\' no se encuentra. Pulse para añadirlo</string>
+</resources>

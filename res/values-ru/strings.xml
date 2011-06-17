@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="tickerSymbol">Символ акции</string>
-    <string name="save">Сохранить</string>
-    <string name="deleteTickerSymbol">Удалить</string>
-    <string name="loading">Загрузка...</string>
-    <string name="addTickerSymbol">Добавить символ...</string>
-    <string name="editTickerSymbol">Редактировать</string>
-    <string name="editPortfolio">Редактировать портфель</string>
-    <string name="openTickerSymbol">Открыть</string>    
-    <string name="stocks">Акции</string>
     <string name="app_name">Виджет Акций</string>
+    <string name="save">Сохранить</string>
+    <string name="addTickerSymbol">Добавить символ...</string>
+	<string name="deleteTickerSymbol">Удалить</string>
+    <string name="openTickerSymbol">Открыть</string>    
+	<string name="loading">Загрузка...</string>
+    <string name="editPortfolio">Редактировать портфель</string>
+	<string name="editTickerSymbol">Редактировать</string>
+	<string name="tickerSymbol">Символ акции</string>
+	<string name="stocks">Акции</string>
     <string name="stocksScrollable">Акции (прокручиваемый)</string>
-    <string name="stocksSingle">Акции (маленький)</string>
+	<string name="stocksSingle">Акции (маленький)</string>
     <string name="tickerSearchHint">Искать символ</string>
     <string name="portfolio">Портфель</string>
     <string name="pref_grp_main">Основные</string>
@@ -21,9 +21,9 @@
     <string name="update_interval_summary">Как часто загружать новые значения с сервиса Yahoo</string>
     <string name="about">О программе</string>
     <string name="stocks_date_day_first_title">Использовать DD/MM формат даты</string>
-    <string name="stocks_24_hour_summary">Отображать время в 24-х часовом, а не в AM/PM формате</string>
     <string name="stocks_date_day_first_summary">Отображать даты в DD/MM, а не в MM/DD формате</string>
-    <string name="stocks_24_hour_title">Использовать 24-х часовой формат</string>    
+	<string name="stocks_24_hour_title">Использовать 24-х часовой формат</string>    
+	<string name="stocks_24_hour_summary">Отображать время в 24-х часовом, а не в AM/PM формате</string>
     <string name="about_text">Виджет акций\n\Прокручиваемый виджет работает только в лаунчере с поддержкой scrollable API. Напрмиер:\nLauncherPro, ADW, FreeHome, Helix, TagHome.\n
 \nБлагодарности:\n
 Иконка создана vanessaem\n

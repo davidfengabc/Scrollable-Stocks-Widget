@@ -37,8 +37,8 @@
 		Original code by Paul Ishenin\n
 
 		\nRecent Changes:\n
-		1.5.5:\n
-		*Put ads in the Portfolio setup. Please click a few!
+		1.5.6:\n
+		*Take the ads out.  Just buy the pro version, PLEASE!
 </string>
 <string name="symbolNotFound">Symbol \'%s\' is not found. Press to add it anyway.</string>
 <color name="dragndrop_background">#e0103010</color>
